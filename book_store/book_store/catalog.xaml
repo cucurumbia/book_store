@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:book_store"
         mc:Ignorable="d"
-        Title="catalog" Height="450" Width="800">
+        Title="catalog" Height="1024" Width="1440">
     <Grid>
-        
+        <Border Width="1310" Height="85" Background="#FFBF7636" CornerRadius="0,0,25,25" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+        <Border Width="1310" Height="876" Background="#FFBF7636" CornerRadius="25,25,0,0" Margin="0,132,0,0" HorizontalAlignment="Center"/>
     </Grid>
 </Window>
