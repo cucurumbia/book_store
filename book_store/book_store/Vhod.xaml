@@ -20,7 +20,14 @@
                     <Border HorizontalAlignment="Center" Height="47" VerticalAlignment="Center" Width="448" CornerRadius="25,25,25,25" Background="#FF733B27">
                         <TextBox TextWrapping="Wrap" Text="Пароль" Background="{x:Null}" Foreground="White" FontSize="16" FontFamily="Arial Rounded MT Bold" VerticalContentAlignment="Center" Padding="31,1,1,1" BorderBrush="{x:Null}"/>
                     </Border>
+
+
+                    <Grid >
+                        <Button Content="Забыли пароль?" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White"  VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  FontSize="18" FontFamily="Arial Rounded MT Bold" Margin="0,100,270,1"/>
+
+                    </Grid>
                     
+
 
 
 

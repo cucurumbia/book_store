@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="catalog" Height="1024" Width="1440">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="433*"/>
+            <RowDefinition Height="71*"/>
+        </Grid.RowDefinitions>
         <Border Width="1310" Height="85" Background="#FFBF7636" CornerRadius="0,0,25,25" VerticalAlignment="Top" HorizontalAlignment="Center">
             <Grid Margin="25,0">
                 <Grid.ColumnDefinitions>
@@ -30,9 +34,10 @@
 
                 </Border>
 
-                <Border Grid.Column="1">
-                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,10,0"/>
-
+                <Border Grid.Column="1" Width="28" Height="28" BorderThickness="1,1,1,1" CornerRadius="50,50,50,50" Background="White">
+                    <Button Background="{x:Null}" BorderBrush="{x:Null}">
+                        <Image Source="/images/Group 13.png" Width="16"/>
+                    </Button>
                 </Border>
 
                 <Border Grid.Column="2" 
@@ -46,19 +51,25 @@
                             HorizontalAlignment="Right"
                             VerticalAlignment="Center" Height="28" Width="124" Grid.ColumnSpan="2" Margin="0,0,5,0">
 
-                    <Border Width="28" Height="28" BorderThickness="1,1,1,1" CornerRadius="14" Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,20,0">
-                        <Button Content="" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White"  VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  FontSize="24" FontFamily="Arial Rounded MT Bold" Margin="1,-1,-1,1"/>
+                    <Border Grid.Column="1" Width="28" Height="28" BorderThickness="1,1,1,1" CornerRadius="50,50,50,50" Background="White" Margin="-1,0,0,0">
+                        <Button Background="{x:Null}" BorderBrush="{x:Null}">
+                            <Image Source="/images/корич серд.png" Width="16"/>
+                        </Button>
                     </Border>
-                    <Border Width="28" Height="28" BorderThickness="1,1,1,1" CornerRadius="14" Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,20,0">
-                        <Button Content="" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White"  VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  FontSize="24" FontFamily="Arial Rounded MT Bold" Margin="1,-1,-1,1"/>
+                    <Border Grid.Column="1" Width="28" Height="28" BorderThickness="1,1,1,1" CornerRadius="50,50,50,50" Background="White" Margin="21,0,0,0">
+                        <Button Background="{x:Null}" BorderBrush="{x:Null}">
+                            <Image Source="/images/корич корз.png"  Width="16"/>
+                        </Button>
                     </Border>
-                    <Border Width="28" Height="28" BorderThickness="1,1,1,1" CornerRadius="14" Background="White" HorizontalAlignment="Left" VerticalAlignment="Top">
-                        <Button Content="" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White"  VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  FontSize="24" FontFamily="Arial Rounded MT Bold" Margin="1,-1,-1,1" VerticalAlignment="Center"/>
+                    <Border Grid.Column="1" Width="28" Height="28" BorderThickness="1,1,1,1" CornerRadius="50,50,50,50" Background="White" Margin="16,0,0,0">
+                        <Button Background="{x:Null}" BorderBrush="{x:Null}">
+                            <Image Source="/images/Аккаунт.png"  Width="16"/>
+                        </Button>
                     </Border>
                 </StackPanel>
             </Grid>
         </Border>
-        <Border Width="1310" Height="876" Background="#FFBF7636" CornerRadius="25,25,0,0" Margin="0,132,0,0" HorizontalAlignment="Center">
+        <Border Width="1310" Height="876" Background="#FFBF7636" CornerRadius="25,25,0,0" Margin="0,132,0,0" HorizontalAlignment="Center" Grid.RowSpan="2">
 
             <Grid>
                 <StackPanel 
@@ -112,7 +123,106 @@
                     <Image Source="/images/Rectangle 14.png" Width="208" Height="298" Margin="50,120,0,0" />
 
                 </WrapPanel>
-                
+
+                <Grid Margin="155,80,170,0">
+                    <TextBlock Text="650 ₽" 
+                               FontSize="24"
+                               FontWeight="Bold"
+                               VerticalAlignment="Center"
+                               Margin="0,0,20,154" FontFamily="Arial Rounded MT Bold" Foreground="White"/>
+                    <TextBlock Text="780 ₽" 
+                            FontSize="24"
+                            FontWeight="Bold"
+                            VerticalAlignment="Center"
+                            Margin="0,0,150,154" FontFamily="Arial Rounded MT Bold" Foreground="White" HorizontalAlignment="Right"/>
+                    <TextBlock Text="600 ₽" 
+                            FontSize="24"
+                            FontWeight="Bold"
+                            VerticalAlignment="Center"
+                            Margin="0,0,400,154" FontFamily="Arial Rounded MT Bold" Foreground="White" HorizontalAlignment="Center"/>
+                    <TextBlock Text="659 ₽" 
+                            FontSize="24"
+                            FontWeight="Bold"
+                            VerticalAlignment="Center"
+                            Margin="120,0,0,154" FontFamily="Arial Rounded MT Bold" Foreground="White" HorizontalAlignment="Center"/>
+                    <TextBlock Text="999 ₽" 
+                            FontSize="24"
+                            FontWeight="Bold"
+                            VerticalAlignment="Bottom"
+                            Margin="0,0,20,40" FontFamily="Arial Rounded MT Bold" Foreground="White" HorizontalAlignment="Left"/>
+                    <TextBlock Text="550 ₽" 
+                                FontSize="24"
+                                FontWeight="Bold"
+                                VerticalAlignment="Bottom"
+                                Margin="0,0,400,40" FontFamily="Arial Rounded MT Bold" Foreground="White" HorizontalAlignment="Center"/>
+                    <TextBlock Text="450 ₽" 
+                                FontSize="24"
+                                FontWeight="Bold"
+                                VerticalAlignment="Bottom"
+                                Margin="120,0,20,40" FontFamily="Arial Rounded MT Bold" Foreground="White" HorizontalAlignment="Center"/>
+                    <TextBlock Text="1299 ₽" 
+                                FontSize="24"
+                                FontWeight="Bold"
+                                VerticalAlignment="Bottom"
+                                Margin="0,0,140,40" FontFamily="Arial Rounded MT Bold" Foreground="White" HorizontalAlignment="Right"/>
+                </Grid>
+
+                <Grid Margin="155,80,170,0">
+                    <Button Width="32" Height="32" Background="#FFBF7636" Margin="171,0,0,155" HorizontalAlignment="Left" VerticalAlignment="Center" BorderBrush="{x:Null}">
+                        <Image Source="/images/бел сердце.png" />
+                    </Button>
+                    <Button Width="32" Height="32" Background="#FFBF7636" Margin="0,0,262,155" HorizontalAlignment="Right" VerticalAlignment="Center" BorderBrush="{x:Null}">
+                        <Image Source="/images/бел сердце.png" />
+                    </Button>
+                    <Button Width="32" Height="32" Background="{x:Null}" Margin="0,0,90,155" HorizontalAlignment="Center" VerticalAlignment="Center" BorderBrush="{x:Null}">
+                        <Image Source="/images/бел сердце.png" />
+                    </Button>
+                    <Button Width="32" Height="32" Background="{x:Null}" Margin="0,0,0,155" HorizontalAlignment="Right" VerticalAlignment="Center" BorderBrush="{x:Null}">
+                        <Image Source="/images/бел сердце.png" />
+                    </Button>
+
+                    <Button Width="32" Height="32" Background="#FFBF7636" Margin="171,0,0,42" HorizontalAlignment="Left" VerticalAlignment="Bottom" BorderBrush="{x:Null}">
+                        <Image Source="/images/бел сердце.png" />
+                    </Button>
+                    <Button Width="32" Height="32" Background="#FFBF7636" Margin="0,0,84,42" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                        <Image Source="/images/бел сердце.png" />
+                    </Button>
+                    <Button Width="32" Height="32" Background="#FFBF7636" Margin="0,0,262,42" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+                        <Image Source="/images/бел сердце.png" />
+                    </Button>
+                    <Button Width="32" Height="32" Background="#FFBF7636" Margin="0,0,0,42" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+                        <Image Source="/images/бел сердце.png" />
+                    </Button>
+
+
+                    <Button Width="32" Height="32" Background="#FFBF7636" Margin="128,0,0,155" HorizontalAlignment="Left" VerticalAlignment="Center" BorderBrush="{x:Null}">
+                        <Image Source="/images/бел корз.png" />
+                    </Button>
+                    <Button Width="32" Height="32" Background="#FFBF7636" Margin="0,0,170,155" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Image Source="/images/бел корз.png" />
+                    </Button>
+                    <Button Width="32" Height="32" Background="#FFBF7636" Margin="0,0,301,155" HorizontalAlignment="Right" VerticalAlignment="Center">
+                        <Image Source="/images/бел корз.png" />
+                    </Button>
+                    <Button Width="32" Height="32" Background="#FFBF7636" Margin="0,0,43,155" HorizontalAlignment="Right" VerticalAlignment="Center">
+                        <Image Source="/images/бел корз.png" />
+                    </Button>
+
+                    <Button Width="32" Height="32" Background="#FFBF7636" Margin="130,0,0,42" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                        <Image Source="/images/бел корз.png" />
+                    </Button>
+                    <Button Width="32" Height="32" Background="#FFBF7636" Margin="0,0,160,42" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                        <Image Source="/images/бел корз.png" />
+                    </Button>
+                    <Button Width="32" Height="32" Background="#FFBF7636" Margin="0,0,301,42" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+                        <Image Source="/images/бел корз.png" />
+                    </Button>
+                    <Button Width="32" Height="32" Background="#FFBF7636" Margin="0,0,39,42" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+                        <Image Source="/images/бел корз.png" />
+                    </Button>
+                </Grid>
+
+
 
 
             </Grid>

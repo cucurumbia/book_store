@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace book_store
 {
     /// <summary>
-    /// Логика взаимодействия для Start.xaml
+    /// Логика взаимодействия для MainWindow1.xaml
     /// </summary>
-    public partial class Start : Window
+    public partial class MainWindow1 : Window
     {
-        public Start()
+        public MainWindow1()
         {
             InitializeComponent();
         }
