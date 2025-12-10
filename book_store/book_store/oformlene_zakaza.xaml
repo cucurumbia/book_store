@@ -5,8 +5,157 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:book_store"
         mc:Ignorable="d"
-        Title="oformlene_zakaza" Height="450" Width="800">
+        Title="oformlene_zakaza" Height="1024" Width="1440">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="0*"/>
+        </Grid.RowDefinitions>
+        <Border Width="1310" Height="85" Background="#FFBF7636" CornerRadius="0,0,25,25" VerticalAlignment="Top" HorizontalAlignment="Center">
+            <Grid Margin="25,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="152" />
+                    <ColumnDefinition Width="40" />
+                    <ColumnDefinition Width="900" />
+                    <ColumnDefinition Width="146" />
+
+                </Grid.ColumnDefinitions>
+
+                <Border Background="White"
+                        CornerRadius="15"
+                        Height="28"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center" Width="125" Margin="5,0,22,0">
+
+                    <TextBlock Text="PITERBOOKS"
+                        VerticalAlignment="Center"
+                        FontWeight="Bold"
+                        Foreground="#FF402A25" FontFamily="Jokerman" FontSize="16" HorizontalAlignment="Center" />
+
+                </Border>
+
+                <Border Grid.Column="1" Width="28" Height="28" BorderThickness="1,1,1,1" CornerRadius="50,50,50,50" Background="White">
+                    <Button Background="{x:Null}" BorderBrush="{x:Null}">
+                        <Image Source="/images/Group 13.png" Width="16"/>
+                    </Button>
+                </Border>
+
+                <Border Grid.Column="2" 
+                        Background="White" 
+                        CornerRadius="15" 
+                        Height="28" Width="893" 
+                        VerticalAlignment="Center" Margin="5,0,0,0" Padding="5,0,0,0" HorizontalAlignment="Left"/>
+
+                <StackPanel Grid.Column="3"
+                            Orientation="Horizontal"
+                            HorizontalAlignment="Right"
+                            VerticalAlignment="Center" Height="28" Width="124" Grid.ColumnSpan="2" Margin="0,0,5,0">
+
+                    <Border Grid.Column="1" Width="28" Height="28" BorderThickness="1,1,1,1" CornerRadius="50,50,50,50" Background="White" Margin="-1,0,0,0">
+                        <Button Background="{x:Null}" BorderBrush="{x:Null}">
+                            <Image Source="/images/корич серд.png" Width="16"/>
+                        </Button>
+                    </Border>
+                    <Border Grid.Column="1" Width="28" Height="28" BorderThickness="1,1,1,1" CornerRadius="50,50,50,50" Background="White" Margin="21,0,0,0">
+                        <Button Background="{x:Null}" BorderBrush="{x:Null}">
+                            <Image Source="/images/корич корз.png"  Width="16"/>
+                        </Button>
+                    </Border>
+                    <Border Grid.Column="1" Width="28" Height="28" BorderThickness="1,1,1,1" CornerRadius="50,50,50,50" Background="White" Margin="16,0,0,0">
+                        <Button Background="{x:Null}" BorderBrush="{x:Null}">
+                            <Image Source="/images/Аккаунт.png"  Width="16"/>
+                        </Button>
+                    </Border>
+                </StackPanel>
+            </Grid>
+        </Border>
+        <Border Width="1310" Background="#FFBF7636" CornerRadius="25,25,0,0" Margin="0,132,0,0" HorizontalAlignment="Center">
+
+            <Grid>
+                <StackPanel 
+                     Orientation="Horizontal"
+                     HorizontalAlignment="Center"
+                     VerticalAlignment="Top" 
+                     Margin="0,20,0,0">
+
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <Grid>
+            <TextBlock Text="Оформление заказа" 
+                       FontSize="40"
+                       FontWeight="Bold"
+                       VerticalAlignment="Top"
+                       Margin="175,222,0,154" FontFamily="Arial Rounded MT Bold" Foreground="White" HorizontalAlignment="Left"/>
+            <Border Width="1107" Height="221" Background="#FF733B27" CornerRadius="25,25,25,25" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,-165,0,0"/>
+            <Image Source="/images/Rectangle 7.png" Width="153" Height="221" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="206,80,0,245" />
+            <TextBlock Text="Дама с камелиями"
+                        FontSize="22"
+                        FontWeight="Bold"
+                        VerticalAlignment="Center" FontFamily="Arial Rounded MT Bold" Foreground="White" HorizontalAlignment="Center" Margin="0,-325,461,0"/>
+            <TextBlock Text="Александр Дюма"
+                        FontSize="18"
+                        VerticalAlignment="Center"
+                        Margin="0,-266,519,0" FontFamily="Arial" Foreground="White" HorizontalAlignment="Center"/>
+            <TextBlock Text="650 ₽"
+                       FontSize="30"
+                       FontWeight="Bold" FontFamily="Arial Rounded MT Bold" Foreground="White" HorizontalAlignment="Center" Margin="-367,-165,217,0" VerticalAlignment="Center"/>
+           
+            <Border Width="202" Height="47" BorderThickness="1,1,1,1" CornerRadius="25" Background="#FF402A25" VerticalAlignment="Bottom" Margin="0,0,158,45" HorizontalAlignment="Right">
+                <Button Content="Оплата" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White"  VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  FontSize="24" FontFamily="Arial Rounded MT Bold" Margin="1,-1,-1,1"/>
+            </Border>
+            <TextBlock Text="Итог: 650 ₽" 
+                       FontSize="24"
+                       FontWeight="Bold" FontFamily="Arial Rounded MT Bold" Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,167,108"/>
+            <TextBlock Text="Оплата: "
+                       TextWrapping="Wrap"
+                       Width="150"
+                       FontSize="22"
+                       VerticalAlignment="Center" FontFamily="Arial Rounded MT Bold" Foreground="White" HorizontalAlignment="Right" Margin="0,0,387,316"/>
+            <TextBlock Text="онлайн картой "
+                       TextWrapping="Wrap"
+                       Width="200"
+                       FontSize="22"
+                       VerticalAlignment="Center" FontFamily="Arial" Foreground="White" HorizontalAlignment="Right" Margin="0,0,336,265"/>
+            <TextBlock Text="Адрес забора заказа: "
+                        TextWrapping="Wrap"
+                        Width="250"
+                        FontSize="22"
+                        VerticalAlignment="Center" FontFamily="Arial Rounded MT Bold" Foreground="White" HorizontalAlignment="Right" Margin="0,0,286,165"/>
+            <TextBlock Text="ул. Пограничника Гарькавого, 44 корп. 4, магазин Piterbooks "
+                        TextWrapping="Wrap"
+                        Width="350"
+                        FontSize="22"
+                        VerticalAlignment="Center" FontFamily="Arial" Foreground="White" HorizontalAlignment="Right" Margin="0,0,188,76"/>
+        </Grid>
+
+
     </Grid>
 </Window>
