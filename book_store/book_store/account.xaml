@@ -1,0 +1,124 @@
+﻿<Window x:Class="book_store.account"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:book_store"
+        mc:Ignorable="d"
+        Title="account" Height="1024" Width="1440">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="0*"/>
+        </Grid.RowDefinitions>
+        <Border Width="1310" Height="85" Background="#FFBF7636" CornerRadius="0,0,25,25" VerticalAlignment="Top" HorizontalAlignment="Center">
+            <Grid Margin="25,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="152" />
+                    <ColumnDefinition Width="40" />
+                    <ColumnDefinition Width="900" />
+                    <ColumnDefinition Width="146" />
+
+                </Grid.ColumnDefinitions>
+
+                <Border Background="White"
+                        CornerRadius="15"
+                        Height="28"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center" Width="125" Margin="5,0,22,0">
+
+                    <TextBlock Text="PITERBOOKS"
+                        VerticalAlignment="Center"
+                        FontWeight="Bold"
+                        Foreground="#FF402A25" FontFamily="Jokerman" FontSize="16" HorizontalAlignment="Center" />
+
+                </Border>
+
+                <Border Grid.Column="1" Width="28" Height="28" BorderThickness="1,1,1,1" CornerRadius="50,50,50,50" Background="White">
+                    <Button Background="{x:Null}" BorderBrush="{x:Null}">
+                        <Image Source="/images/Group 13.png" Width="16"/>
+                    </Button>
+                </Border>
+
+                <Border Grid.Column="2" 
+                        Background="White" 
+                        CornerRadius="15" 
+                        Height="28" Width="893" 
+                        VerticalAlignment="Center" Margin="5,0,0,0" Padding="5,0,0,0" HorizontalAlignment="Left"/>
+
+                <StackPanel Grid.Column="3"
+                            Orientation="Horizontal"
+                            HorizontalAlignment="Right"
+                            VerticalAlignment="Center" Height="28" Width="124" Grid.ColumnSpan="2" Margin="0,0,5,0">
+
+                    <Border Grid.Column="1" Width="28" Height="28" BorderThickness="1,1,1,1" CornerRadius="50,50,50,50" Background="White" Margin="-1,0,0,0">
+                        <Button Background="{x:Null}" BorderBrush="{x:Null}">
+                            <Image Source="/images/корич серд.png" Width="16"/>
+                        </Button>
+                    </Border>
+                    <Border Grid.Column="1" Width="28" Height="28" BorderThickness="1,1,1,1" CornerRadius="50,50,50,50" Background="White" Margin="21,0,0,0">
+                        <Button Background="{x:Null}" BorderBrush="{x:Null}">
+                            <Image Source="/images/корич корз.png"  Width="16"/>
+                        </Button>
+                    </Border>
+                    <Border Grid.Column="1" Width="28" Height="28" BorderThickness="1,1,1,1" CornerRadius="50,50,50,50" Background="White" Margin="16,0,0,0">
+                        <Button Background="{x:Null}" BorderBrush="{x:Null}">
+                            <Image Source="/images/Аккаунт.png"  Width="16"/>
+                        </Button>
+                    </Border>
+                </StackPanel>
+            </Grid>
+        </Border>
+        <Border Width="1310" Background="#FFBF7636" CornerRadius="25,25,0,0" Margin="0,132,0,0" HorizontalAlignment="Center">
+
+            <Grid>
+                <StackPanel 
+                     Orientation="Horizontal"
+                     HorizontalAlignment="Center"
+                     VerticalAlignment="Top" 
+                     Margin="0,20,0,0">
+
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                    <Ellipse Width="28" Height="28" Fill="White" Margin="0,0,20,0"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <Grid>
+            <TextBlock Text="Имя Фамилия" 
+                       FontSize="40"
+                       FontWeight="Bold"
+                       VerticalAlignment="Top"
+                       Margin="442,279,0,0" FontFamily="Arial Rounded MT Bold" Foreground="White" HorizontalAlignment="Left"/>
+            <Ellipse Width="200" Height="200" Fill="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="152,211,0,0"/>
+            
+
+        </Grid>
+
+
+    </Grid>
+</Window>
